@@ -35,7 +35,7 @@ npm install
 
 Create a .env file in the root directory and add the following:
 
-MONGO_URI=<Your MongoDB connection string>
+MONGO_URI=<Your MongoDB connection string><br />
 PORT=5000
 
 ### run the server
@@ -45,36 +45,31 @@ npm start
 ### API Endpoints
 
 1. Create a Transaction
-   URL: POST /transactions
+   URL: POST /transactions <br />
    Description: Adds a new income or expense transaction.
-![image](https://github.com/user-attachments/assets/72bea76d-4550-47eb-8b53-c369a624d404)
+   ![image](https://github.com/user-attachments/assets/72bea76d-4550-47eb-8b53-c369a624d404)
 
 2. Get All Transactions
    URL: GET /transactions
    Description: Retrieves all transactions.
    ![image](https://github.com/user-attachments/assets/6f591922-af98-40a5-9fac-f41858afdc4c)
 
-
-4. Get a Transaction by ID
+3. Get a Transaction by ID
    URL: GET /transactions/:id
    Description: Retrieves a specific transaction by ID.
    ![image](https://github.com/user-attachments/assets/81514dfa-3a0b-4319-b165-d7200426b1b6)
 
-
-6. Update a Transaction
+4. Update a Transaction
    URL: PUT /transactions/:id
    Description: Updates a transaction by ID.
    ![image](https://github.com/user-attachments/assets/f279ae4f-090f-4b31-9b47-cef4da93823f)
 
-
-8. Delete a Transaction
+5. Delete a Transaction
    URL: DELETE /transactions/:id
    Description: Deletes a specific transaction by ID.
    ![image](https://github.com/user-attachments/assets/79553793-1581-4dc6-8d5c-4b973451f726)
 
-
-10. Get Transaction Summary
+6. Get Transaction Summary
    URL: GET /summary
    Description: Retrieves a summary of total income, total expenses, and balance.
-    ![image](https://github.com/user-attachments/assets/fe46c9a4-64f2-4ad8-94cb-274003c0259c)
-
+   ![image](https://github.com/user-attachments/assets/fe46c9a4-64f2-4ad8-94cb-274003c0259c)
