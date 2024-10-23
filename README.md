@@ -52,19 +52,29 @@ npm start
 2. Get All Transactions
    URL: GET /transactions
    Description: Retrieves all transactions.
+   ![image](https://github.com/user-attachments/assets/6f591922-af98-40a5-9fac-f41858afdc4c)
 
-3. Get a Transaction by ID
+
+4. Get a Transaction by ID
    URL: GET /transactions/:id
    Description: Retrieves a specific transaction by ID.
+   ![image](https://github.com/user-attachments/assets/81514dfa-3a0b-4319-b165-d7200426b1b6)
 
-4. Update a Transaction
+
+6. Update a Transaction
    URL: PUT /transactions/:id
    Description: Updates a transaction by ID.
+   ![image](https://github.com/user-attachments/assets/f279ae4f-090f-4b31-9b47-cef4da93823f)
 
-5. Delete a Transaction
+
+8. Delete a Transaction
    URL: DELETE /transactions/:id
    Description: Deletes a specific transaction by ID.
+   ![image](https://github.com/user-attachments/assets/79553793-1581-4dc6-8d5c-4b973451f726)
 
-6. Get Transaction Summary
+
+10. Get Transaction Summary
    URL: GET /summary
    Description: Retrieves a summary of total income, total expenses, and balance.
+    ![image](https://github.com/user-attachments/assets/fe46c9a4-64f2-4ad8-94cb-274003c0259c)
+
