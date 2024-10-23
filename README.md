@@ -35,16 +35,16 @@ npm install
 
 Create a .env file in the root directory and add the following:
 
-MONGO_URI=<Your MongoDB connection string><br />
+MONGO_URI=your mongodb connection string<br />
 PORT=5000 <br />
 
-or <br />
+OR <br />
 In the database url use this path (MONGO_URL)
-`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_HOST}/?retryWrites=true&w=majority&appName=${process.env.MONGO_DB}`;
-MONGO_USER= <Your username>
-MONGO_PASSWORD=<Your password>
-MONGO_HOST= <Your host>
-MONGO_DB=<Your db name>
+`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_HOST}/?retryWrites=true&w=majority&appName=${process.env.MONGO_DB}`; <br />
+MONGO_USER= Your username <br />
+MONGO_PASSWORD=Your password <br />
+MONGO_HOST= Your host <br />
+MONGO_DB=Your db name <br />
 
 ### run the server
 
